@@ -1,0 +1,137 @@
+import Link from 'next/link';
+import React from 'react';
+
+const Footer = () => {
+    return (
+        <>
+
+            <footer className="main-footer">
+                <div className="bg-image zoom-two" style={{ backgroundImage: 'url(./images/background/4.jpg)' }} />
+                {/*Widgets Section*/}
+                <div className="widgets-section">
+                    <div className="auto-container">
+                        <div className="row">
+                            {/*Footer Column*/}
+                            <div className="footer-column col-xl-3 col-lg-12 col-md-6 col-sm-12">
+                                <div className="footer-widget about-widget">
+                                    <div className="logo"><Link href="/"><img src="images/logo-2.png" title="Shital" /></Link></div>
+                                    <div className="text">Get 26,000+ best online courses from us</div>
+                                    <ul className="social-icon-two">
+                                        <li><Link href="#"><i className="fab fa-twitter" /></Link></li>
+                                        <li><Link href="#"><i className="fab fa-facebook" /></Link></li>
+                                        <li><Link href="#"><i className="fab fa-pinterest" /></Link></li>
+                                        <li><Link href="#"><i className="fab fa-instagram" /></Link></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            {/*Footer Column*/}
+                            <div className="footer-column col-xl-2 col-lg-4 col-md-6 col-sm-12">
+                                <div className="footer-widget">
+                                    <h4 className="widget-title">Explore</h4>
+                                    <ul className="user-links">
+                                        <li><Link href="#">Gallery</Link></li>
+                                        <li><Link href="#">News &amp; Articles</Link></li>
+                                        <li><Link href="#">FAQ's</Link></li>
+                                        <li><Link href="#">Sign In/Registration</Link></li>
+                                        <li><Link href="#">Coming Soon</Link></li>
+                                        <li><Link href="#">Contacts</Link></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            {/*Footer Column*/}
+                            <div className="footer-column col-xl-2 col-lg-4 col-md-6 col-sm-12">
+                                <div className="footer-widget">
+                                    <h4 className="widget-title">Links</h4>
+                                    <ul className="user-links">
+                                        <li><Link href="#">About</Link></li>
+                                        <li><Link href="#">Courses</Link></li>
+                                        <li><Link href="#">Instructor</Link></li>
+                                        <li><Link href="#">Events</Link></li>
+                                        <li><Link href="#">Instructor Profile</Link></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            {/*Footer Column*/}
+                            <div className="footer-column col-xl-5 col-lg-4 col-md-6 col-sm-12">
+                                <div className="footer-widget contact-widget">
+                                    <h4 className="widget-title">Contact</h4>
+                                    <div className="widget-content">
+                                        <ul className="contact-info">
+                                            <li><i className="fa fa-phone-square" /> <Link href="tel:+926668880000">+91 63588 21400</Link></li>
+                                            <li><i className="fa fa-envelope" /> <Link href="mailto:needhelp@potisen.com">shitalacademyit@gmail.com</Link></li>
+                                            <li><i className="fa fa-map-marker-alt" />2212/C, HILL Drive, next to Sun Haemony Flat Opp. Solanki Restaurant, Sanskarmandal 364002    </li>
+                                        </ul>
+                                        <div className="subscribe-form">
+                                            <form method="post" action="#">
+                                                <div className="form-group">
+                                                    <input type="email" name="email" className="email" placeholder="Email Address" required />
+                                                    <button type="button" className="theme-btn btn-style-one"><i className="fa fa-long-arrow-alt-right" /></button>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div className='container-fluid'>
+                    <div className='row'>
+                    <h4 class="card-title text-center py-2">OUR BRANCH</h4>
+                    <hr/>
+                        <div className='col-lg-3'>
+                            <div class="card text-center">
+                                <div class="card-body">
+                                    <h5 class="card-title">BHAVNAGAR</h5>
+                                    <p class="card-text">Foolwadi Chowk, Hill Drive, Bhavnagar, Gujarat 364002</p>
+                                    <p class="card-text"><small class="text-muted">+91 93280 90700</small></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className='col-lg-3'>
+                            <div class="card text-center">
+                                <div class="card-body">
+                                    <h5 class="card-title">BARODA</h5>
+                                    <p class="card-text">210/C, Manubhai Tower, Opp.<br/>  M. S. University, Sayajiganj.</p>
+                                    <p class="card-text"><small class="text-muted">+91 63588 21400</small></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className='col-lg-3'>
+                            <div class="card text-center">
+                                <div class="card-body">
+                                    <h5 class="card-title">AHMEDABAD</h5>
+                                    <p class="card-text">4th Floor, Ganesh Plaza, <br/> Anjali Cross Road, Opp. Swaminarayan Avenue, Vasana.</p>
+                                    <p class="card-text"><small class="text-muted">+91 63588 21600</small></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className='col-lg-3'>
+                            <div class="card text-center">
+                                <div class="card-body">
+                                    <h5 class="card-title">ANAND</h5>
+                                    <p class="card-text">1st Floor, P. M. Square, Near Big Bazar, Vidhyanagar Main Road.</p>
+                                    <p class="card-text"><small class="text-muted">+91 70415 59800</small></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                {/*Footer Bottom*/}
+                <div className="footer-bottom">
+                    <div className="auto-container">
+                        <div className="inner-container">
+                            <div className="copyright-text">© Copyright 2022 by  <Link href="/">shitalacademy.com</Link></div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+
+
+
+        </>
+    );
+};
+
+export default Footer;

@@ -1,0 +1,21 @@
+{
+  "/": "pages/index.html",
+  "/index-2": "pages/index-2.html",
+  "/news-details": "pages/news-details.html",
+  "/_app": "pages/_app.js",
+  "/page-404": "pages/page-404.html",
+  "/page-about": "pages/page-about.html",
+  "/page-course-details": "pages/page-course-details.html",
+  "/page-contact": "pages/page-contact.html",
+  "/page-faq": "pages/page-faq.html",
+  "/page-login": "pages/page-login.html",
+  "/page-courses": "pages/page-courses.html",
+  "/page-pricing": "pages/page-pricing.html",
+  "/page-team-details": "pages/page-team-details.html",
+  "/page-team": "pages/page-team.html",
+  "/page-testimonial": "pages/page-testimonial.html",
+  "/news-grid": "pages/news-grid.html",
+  "/_error": "pages/_error.js",
+  "/_document": "pages/_document.js",
+  "/404": "pages/404.html"
+}
